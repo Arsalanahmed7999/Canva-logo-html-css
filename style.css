@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(0, 154, 154), purple);
+}
+
+span{
+    font-size: 150px;
+    font-family: cursive;
+    color: white;
+    transform: skewX(10deg);
+    text-shadow: 0 0 1px white;
+}
